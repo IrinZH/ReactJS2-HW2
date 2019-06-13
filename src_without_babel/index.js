@@ -10,7 +10,7 @@ class MakeBusiness {
     this.emp = emp;
   }
   showResults() {
-  console.log(`We have a business. Owner: ${owner}, director: ${director}. Our budget: ${cash}. And our employers: ${emp}`);
+  console.log(`We have a business. Owner: ${this.owner}, director: ${this.director}. Our budget: ${this.cash}. And our employers: ${this.emp}`);
   console.log('And we have a sponsors: ');
   console.log(...sumSponsors);
   console.log(`Note. Be careful with ${eu[0]}. It's a huge risk.`);
